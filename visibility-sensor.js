@@ -295,7 +295,7 @@ module.exports = createReactClass({
         typeof offset.value === 'number') {
       console.warn('[notice] offset.direction and offset.value have been deprecated. They still work for now, but will be removed in next major version. Please upgrade to the new syntax: { %s: %d }', offset.direction, offset.value)
 
-      isVisible = isVisibleWithOffset(offset, rect, containmentRect);
+    //   isVisible = isVisibleWithOffset(offset, rect, containmentRect);
     }
 
     var state = this.state;
